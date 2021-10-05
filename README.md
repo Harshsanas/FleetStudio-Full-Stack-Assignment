@@ -42,3 +42,7 @@ A Full Stack Web Application using MERN stack
   npm i react-router-dom<br/>
   npm i react-scripts<br/>
   npm i styled-components<br/>
+
+
+what is remaining and why
+  frontend is remaining as I need one more hour so I will complete all the frontend tak by fetching the data thtough Axios get request and showing them on the web page by using hooks. 

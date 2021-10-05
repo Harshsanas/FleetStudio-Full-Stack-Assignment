@@ -1,5 +1,6 @@
-import React from 'react'
-import styled from "styled-components"
+import React, { useEffect, useState } from "react";
+import axios from "axios";
+import styled from "styled-components";
 
 const GITTEXT = styled.div`
   margin: 2rem auto;
@@ -19,28 +20,40 @@ const GITTEXT = styled.div`
     border: 1px solid red;
     justify-content: space-between;
 
-    .right-headerDiv{
+    .right-headerDiv {
       text-align: right;
     }
   }
 `;
 export default function Home() {
-    return (
-      <div>
-        <GITTEXT>
-          <div>
-            <p className="para-heading">Remove some wrappers from a previous abstraction</p>
-          </div>
-          <div className="headerDiv">
-            <div className="left-headerDiv">
 
-            </div>
-            <div className="right-headerDiv">
+    const [list, setList] = useState({});
+  
+    useEffect(() => {
+      axios
+        .get("http://localhost:3033/")
+        .then((res) => {
+          setList(res.data.forms);
+          console.log(res.data)
+        })
+        .catch((err) => console.log(err));
+    });
+  return (
+    <div>
+      <GITTEXT>
+        <div>
+          <p className="para-heading">
+            Remove some wrappers from a previous abstraction
+          </p>
+        </div>
+        <div className="headerDiv">
+          <div className="left-headerDiv"></div>
+          <div className="right-headerDiv">
             <p>Commit</p>
             <p>Parent</p>
-            </div>
           </div>
-        </GITTEXT>
-      </div>
-    );
+        </div>
+      </GITTEXT>
+    </div>
+  );
 }
