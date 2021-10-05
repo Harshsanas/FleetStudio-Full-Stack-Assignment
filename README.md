@@ -26,19 +26,19 @@ A Full Stack Web Application using MERN stack
  
   #npm packages for backend :
   
-  npm i bcrypt
-  npm i cors
-  npm i dotenv
-  npm i express
-  npm i jsonwebtoken
-  npm i mongoose@5.11.15
-  npm i nodemon
+  npm i bcrypt <br/>
+  npm i cors<br/>
+  npm i dotenv<br/>
+  npm i express<br/>
+  npm i jsonwebtoken<br/>
+  npm i mongoose@5.11.15<br/>
+  npm i nodemon<br/>
   
   #npm packages for frontend
   
-  npm i axios
-  npm i react
-  npm i react-dom
-  npm i react-router-dom
-  npm i react-scripts
-  npm i styled-components
+  npm i axios<br/>
+  npm i react<br/>
+  npm i react-dom<br/>
+  npm i react-router-dom<br/>
+  npm i react-scripts<br/>
+  npm i styled-components<br/>
