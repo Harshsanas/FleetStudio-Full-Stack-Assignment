@@ -44,5 +44,6 @@ A Full Stack Web Application using MERN stack
   npm i styled-components<br/>
 
 
-what is remaining and why
-  frontend is remaining as I need one more hour so I will complete all the frontend tak by fetching the data thtough Axios get request and showing them on the web page by using hooks. 
+what is remaining and why? <br/>
+  
+<p>Frontend is remaining as I need one more an hour so I will complete all the frontend task by fetching the data through API using Axios get request and showing them on the web page by using hooks</p>
