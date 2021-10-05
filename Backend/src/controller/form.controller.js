@@ -14,4 +14,16 @@ router.get("/", async (req, res) => {
   }
 });
 
+// to add new forms
+router.post("/", async (req, res) => {
+  const { commitName, ownerName, repoName, codeText, ownerId } = req.params;
+  // console.log(id, url, name, content);
+  try {
+    const newforms = await Forms.create(req.body);
+    res.status(201).json({ newforms });
+  } catch (err) {
+    res.status(500).json({ err: err.message });
+  }
+});
+
 module.exports = router;
