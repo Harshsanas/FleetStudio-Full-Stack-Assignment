@@ -16,9 +16,9 @@ A Full Stack Web Application using MERN stack
 # To run frondend npm start
 
 # github link 
-# <a href="https://github.com/Harshsanas/Crud-App-Insight.git"> https://github.com/Harshsanas/Crud-App-Insight.git
+# <a href="https://github.com/Harshsanas/FleetStudio-Full-Stack-Assignment.git"> https://github.com/Harshsanas/FleetStudio-Full-Stack-Assignment.git
   
-# Git Clone https://github.com/Harshsanas/Crud-App-Insight.git
+# Git Clone https://github.com/Harshsanas/FleetStudio-Full-Stack-Assignment.git
   
 # cd backend >> npm i >> npm run server
   
